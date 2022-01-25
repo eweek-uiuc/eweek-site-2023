@@ -1,0 +1,69 @@
+@font-face {
+    font-family: "Caribbean";
+    src: url('./Caribbean.ttf') format("truetype");
+    
+}
+
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: url('./Gilroy-Medium.ttf') format("truetype");
+}
+
+
+html {
+   background-color: #EBE4D1;
+   
+}
+
+.main {
+    position: relative;
+    width: 1200px;
+    font-family: "Gilroy-Medium" !important;
+}
+
+.title-1 {
+    font-family: "Caribbean" !important;
+}
+
+.title-2 {
+    font-family: "Caribbean" !important;
+}
+
+#grad {
+    position: absolute;
+    z-index: -999;
+    top: 25%;
+    right: 0;
+    width:70%;
+    height: 100vh;
+    background-image: url(grad.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#ship {
+    position: absolute;
+    z-index: -998;
+    top: 25%;
+    right: 0;
+    width: 40%;
+    height: 100vh;
+    background-image: url(ship3.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* For Mobile */
+@media screen and (max-width: 640px) {
+    .main {
+        width: 90%;
+    }
+}
+
+/* For Tablets */
+@media screen and (min-width: 640px) and (max-width: 768px) {
+    .main {
+        width: 500px;
+    }
+}
+
