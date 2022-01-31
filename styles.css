@@ -27,6 +27,7 @@ html {
 }
 
 #grad {
+  display: block;
   position: absolute;
   z-index: -999;
   top: 0;
@@ -39,6 +40,7 @@ html {
 }
 
 #ship {
+  display: block;
   position: absolute;
   z-index: -998;
   top: 20px;
@@ -51,6 +53,7 @@ html {
 }
 
 #waves {
+  display: block;
   opacity: 0.95;
   position: absolute;
   z-index: -999;
@@ -85,6 +88,57 @@ html {
 @media screen and (max-width: 640px) {
   .main {
     width: 90%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  #ship {
+    display: none;
+    position: absolute;
+    z-index: -998;
+    top: 20px;
+    right: 0px;
+    width: 30vw;
+    height: 80vh !important;
+    background-image: url(ship.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  #grad {
+    position: absolute;
+    z-index: -999;
+    top: 0;
+    right: 0;
+    width: 60%;
+    height: 100vh;
+    background-image: url(grad_corner.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  #ship {
+    position: absolute;
+    z-index: -998;
+    top: 20px;
+    right: -200px;
+    width: 30vw;
+    height: 80vh !important;
+    background-image: url(ship.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  #waves {
+    display: block;
+    opacity: 0.95;
+    position: absolute;
+    z-index: -999;
+    bottom: -600px;
+    right: 0;
+    width: 200%;
+    height: 100% !important;
+    background-image: url(waves.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
 }
 
