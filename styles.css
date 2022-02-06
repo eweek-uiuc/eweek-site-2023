@@ -53,6 +53,46 @@ html {
     background-size: 100%;
 }
 
+.Team-wrapper{
+    position: absolute;
+    top:150%;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    bottom: 20%;
+}
+
+ .Profile {
+    transform: scale(0.65);
+    width: 40vh;
+    /* height: 20vh; */
+    /* background-color: #beb7a7;
+    width: 23%;
+    height: 36vh;
+    margin: 2% 1%;
+    padding: 0;
+    border-radius: 10%;
+    box-sizing: border-box;
+    */
+    display: inline-flex;
+    flex-direction: column; 
+}
+
+.Profile img {
+    object-fit: cover;
+}
+
+/* .Profile h1{
+    position: relative;
+    color: white;
+    width: fit-content;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    margin: 0;
+    padding: 0;
+    background-color: red;
+} */ 
+
 /* For Mobile */
 @media screen and (max-width: 640px) {
     .main {
