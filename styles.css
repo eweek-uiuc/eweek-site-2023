@@ -142,6 +142,21 @@ html {
   }
 }
 
+.sponsorlogo {
+    display: block;
+    margin: auto;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+/* .sponsorcontainer {
+    display: block;
+    margin: auto;
+    transform: translate(40px, 0px);
+    display: inline-flex;
+    flex-direction: column;
+} */
+
 /* For Tablets */
 @media screen and (min-width: 640px) and (max-width: 768px) {
   .main {
