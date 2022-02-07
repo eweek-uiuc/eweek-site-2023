@@ -127,6 +127,23 @@ html {
     background-size: 100%;
   }
 
+
+/* .Profile h1{
+    position: relative;
+    color: white;
+    width: fit-content;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    margin: 0;
+    padding: 0;
+    background-color: red;
+} */ 
+
+/* For Mobile */
+@media screen and (max-width: 640px) {
+    .main {
+        width: 90%;
+    }
   #waves {
     display: block;
     opacity: 0.95;
