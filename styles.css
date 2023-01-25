@@ -20,10 +20,12 @@ html {
 
 .title-1 {
   font-family: "Caribbean" !important;
+  color: #000000;
 }
 
 .title-2 {
   font-family: "Caribbean" !important;
+  color: #FFFFFF;
 }
 
 #grad {
