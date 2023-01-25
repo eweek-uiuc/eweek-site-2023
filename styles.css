@@ -40,6 +40,19 @@ html {
   background-size: 100%;
 }
 
+#olive {
+  display: block;
+  position: absolute;
+  z-index: -998;
+  top: 20px;
+  right: -200px;
+  width: 30vw;
+  height: 80vh !important;
+  background-image: url(olive.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
 #linegreek {
   display: block;
   opacity: 0.95;
@@ -55,8 +68,8 @@ html {
 }
 
 #logo {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   background-image: url(logo.png);
   background-repeat: no-repeat;
   background-size: 100%;
