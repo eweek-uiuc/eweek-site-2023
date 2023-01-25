@@ -31,7 +31,7 @@ html {
   display: block;
   position: absolute;
   z-index: -998;
-  top: 20px;
+  top: 40px;
   right: -200px;
   width: 30vw;
   height: 80vh !important;
@@ -68,8 +68,8 @@ html {
 }
 
 #logo {
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
   background-image: url(logo.png);
   background-repeat: no-repeat;
   background-size: 100%;
