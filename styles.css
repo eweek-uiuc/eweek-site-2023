@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "Dionysus";
-  src: url("./Dionysus.ttf") format("truetype");
+  font-family: "Diogenes";
+  src: url("./Diogenes.ttf") format("truetype");
 }
 
 @font-face {
@@ -9,7 +9,7 @@
 }
 
 html {
-  background-color: #B94619; /*2022 is #ebe4d1*/
+  background-color: #B94619;
 }
 
 .main {
@@ -19,11 +19,11 @@ html {
 }
 
 .title-1 {
-  font-family: "Dionysus" !important;
+  font-family: "Diogenes" !important;
 }
 
 .title-2 {
-  font-family: "Dionysus" !important;
+  font-family: "Diogenes" !important;
 }
 
 
@@ -31,13 +31,15 @@ html {
   display: block;
   position: absolute;
   z-index: -998;
-  top: 40px;
-  right: -200px;
-  width: 30vw;
-  height: 80vh !important;
-  background-image: url(column.png);
+  top: 200px; /*from 40px*/
+  left: 800px;
+  background-image: url(ShorterColumn.png);
   background-repeat: no-repeat;
   background-size: 100%;
+  min-height: 1000px;
+  max-height: 1200px;
+  min-width: 400px;
+  max-width: 500px;
 }
 
 #olive {
@@ -55,22 +57,28 @@ html {
 
 #linegreek {
   display: block;
-  opacity: 0.95;
   position: absolute;
-  z-index: -999;
-  bottom: 0px;
-  right: 0;
-  width: 100%;
-  height: 100% !important;
-  background-image: url(linegreek.png);
-  background-repeat: no-repeat;
+  /*z-index: -999;*/
+  top: 1250px;
+
+  background-image: url(LinePattern1.png);
+  background-repeat: repeat-x;
   background-size: 100%;
+  min-height: 100px;
+  min-width: 100vh;
 }
 
 #logo {
   width: 500px;
   height: 500px;
   background-image: url(logo.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#logosmaller {
+  width: 300px;
+  height: 300px;
+  background-image: url(EWeek2023LogoSmaller.png);
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -100,7 +108,7 @@ html {
     right: 0px;
     width: 30vw;
     height: 80vh !important;
-    background-image: url(column.png);
+    background-image: url(ShorterColumn.png);
     background-repeat: no-repeat;
     background-size: 100%;
   }
@@ -113,7 +121,7 @@ html {
     right: -200px;
     width: 30vw;
     height: 80vh !important;
-    background-image: url(column.png);
+    background-image: url(ShorterColumn.png);
     background-repeat: no-repeat;
     background-size: 100%;
   }
@@ -145,7 +153,7 @@ html {
     right: 0;
     width: 200%;
     height: 100% !important;
-    background-image: url(linegreek.png);
+    background-image: url(LinePattern1.png);
     background-repeat: no-repeat;
     background-size: 100%;
   }
