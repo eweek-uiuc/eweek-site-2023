@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "Diogenes";
-  src: url("./Diogenes.ttf") format("truetype");
+  font-family: "Dionysus";
+  src: url("./Dionysus.ttf") format("truetype");
 }
 
 @font-face {
@@ -19,11 +19,11 @@ html {
 }
 
 .title-1 {
-  font-family: "Diogenes" !important;
+  font-family: "Dionysus" !important;
 }
 
 .title-2 {
-  font-family: "Diogenes" !important;
+  font-family: "Dionysus" !important;
 }
 
 
