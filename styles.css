@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Dionysus";
-  src: url("./Dionysus.ttf") format("truetype");
+  src: url("./website-assets/Dionysus.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Gilroy-Medium";
-  src: url("./Gilroy-Medium.ttf") format("truetype");
+  src: url("./website-assets/Gilroy-Medium.ttf") format("truetype");
 }
 
 html {
@@ -33,7 +33,7 @@ html {
   z-index: -998;
   top: 200px; /*from 40px*/
   left: 800px;
-  background-image: url(ShorterColumn.png);
+  background-image: url(website-assets/ShorterColumn.png);
   background-repeat: no-repeat;
   background-size: 100%;
   min-height: 1000px;
@@ -50,7 +50,7 @@ html {
   right: -200px;
   width: 30vw;
   height: 80vh !important;
-  background-image: url(olive.png);
+  background-image: url(website-assets/olive.png);
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -61,7 +61,7 @@ html {
   /*z-index: -999;*/
   top: 1250px;
 
-  background-image: url(LinePattern1.png);
+  background-image: url(website-assets/LinePattern1.png);
   background-repeat: repeat-x;
   background-size: 100%;
   min-height: 100px;
@@ -71,14 +71,14 @@ html {
 #logo {
   width: 500px;
   height: 500px;
-  background-image: url(logo.png);
+  background-image: url(website-assets/logo.png);
   background-repeat: no-repeat;
   background-size: 100%;
 }
 #logosmaller {
   width: 300px;
   height: 300px;
-  background-image: url(EWeek2023LogoSmaller.png);
+  background-image: url(website-assets/EWeek2023LogoSmaller.png);
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -108,7 +108,7 @@ html {
     right: 0px;
     width: 30vw;
     height: 80vh !important;
-    background-image: url(ShorterColumn.png);
+    background-image: url(website-assets/ShorterColumn.png);
     background-repeat: no-repeat;
     background-size: 100%;
   }
@@ -121,7 +121,7 @@ html {
     right: -200px;
     width: 30vw;
     height: 80vh !important;
-    background-image: url(ShorterColumn.png);
+    background-image: url(website-assets/ShorterColumn.png);
     background-repeat: no-repeat;
     background-size: 100%;
   }
@@ -153,7 +153,7 @@ html {
     right: 0;
     width: 200%;
     height: 100% !important;
-    background-image: url(LinePattern1.png);
+    background-image: url(website-assets/LinePattern1.png);
     background-repeat: no-repeat;
     background-size: 100%;
   }
