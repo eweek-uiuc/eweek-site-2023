@@ -1,2 +1,2 @@
-# eweek-site-2023
-E-week site for 2023
+# eweek-site-2024
+E-week site for 2024
